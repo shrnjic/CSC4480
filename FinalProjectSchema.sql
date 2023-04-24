@@ -7,3 +7,15 @@ CREATE TABLE Country (
   number_of_goals INT NOT NULL DEFAULT 0,
   placing INT NOT NULL DEFAULT 0
 );
+
+CREATE TABLE player (
+  number INT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  position VARCHAR(50) NOT NULL,
+  age INT NOT NULL,
+  games_played INT NOT NULL,
+  height FLOAT NOT NULL,
+  assists INT NOT NULL,
+  country_name INT NOT NULL,
+  FOREIGN KEY (country_name) REFERENCES country(name)
+);
