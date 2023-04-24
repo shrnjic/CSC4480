@@ -21,6 +21,8 @@ CREATE TABLE Country (
   place INT NOT NULL
 );
 
+CREATE SEQUENCE seqCoID INCREMENT BY 1 START WITH 1;
+
 CREATE TABLE Player (
   number INT PRIMARY KEY,
   name VARCHAR(50) NOT NULL,
@@ -32,3 +34,5 @@ CREATE TABLE Player (
   country_name INT NOT NULL,
   FOREIGN KEY (country_name) REFERENCES country(name)
 );
+
+CREATE SEQUENCE seqPlID INCREMENT BY 1 START WITH 1;
