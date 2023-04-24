@@ -36,3 +36,29 @@ CREATE TABLE Player (
 );
 
 CREATE SEQUENCE seqPlID INCREMENT BY 1 START WITH 1;
+
+CREATE TABLE coach (
+  name VARCHAR(50) PRIMARY KEY,
+  age INT NOT NULL,
+  country_name INT NOT NULL,
+  FOREIGN KEY (country_name) REFERENCES country(name)
+);
+
+
+CREATE TABLE matches (
+  time TIME NOT NULL,
+  date DATE NOT NULL,
+  winner VARCHAR(50) NOT NULL,
+  loser VARCHAR(50) NOT NULL,
+  stage VARCHAR(50) NOT NULL,
+  manofthematch VARCHAR(50) NOT NULL
+  PRIMARY KEY (time, date)
+);
+
+
+CREATE TABLE accolades (
+  name VARCHAR(50) PRIMARY KEY,
+  description VARCHAR(100) NOT NULL,
+  date_awarded DATE NOT NULL,
+  recipient VARCHAR(50) NOT NULL
+);
