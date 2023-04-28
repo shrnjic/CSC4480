@@ -1,6 +1,22 @@
---Brandon Salko Chuck
+--Brandon  Chuck
+Salko (Netherlands, USA,Australia, Croatia, Brazil)
+
 
 -- Country table
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
+INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
+VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
 INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
 VALUES ('Argentina', 'South America', 'C', 2, 1, 15, 1);
 
