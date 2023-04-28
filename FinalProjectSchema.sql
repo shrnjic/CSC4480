@@ -31,6 +31,7 @@ CREATE TABLE Player (
   games_played INT NOT NULL,
   height FLOAT NOT NULL,
   assists INT NOT NULL,
+  goals INT NOT NULL,
   country_name INT NOT NULL,
   FOREIGN KEY (country_name) REFERENCES country(name)
 );
