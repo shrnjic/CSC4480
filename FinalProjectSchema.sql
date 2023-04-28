@@ -37,7 +37,7 @@ CREATE TABLE Player (
 
 CREATE SEQUENCE seqPlID INCREMENT BY 1 START WITH 1;
 
-CREATE TABLE coach (
+CREATE TABLE Coach (
   name VARCHAR(50) PRIMARY KEY,
   age INT NOT NULL,
   country_name INT NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE coach (
 );
 
 
-CREATE TABLE matches (
+CREATE TABLE Matches (
   time TIME NOT NULL,
   date DATE NOT NULL,
   winner VARCHAR(50) NOT NULL,
@@ -56,7 +56,7 @@ CREATE TABLE matches (
 );
 
 
-CREATE TABLE accolades (
+CREATE TABLE Accolades (
   name VARCHAR(50) PRIMARY KEY,
   description VARCHAR(100) NOT NULL,
   date_awarded DATE NOT NULL,
