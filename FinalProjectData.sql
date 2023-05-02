@@ -54,7 +54,7 @@ INSERT INTO Player (number, name, position, age, games_played, height, assists, 
 VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
 
 
--- Player table
+-- Japan Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (18, 'Kosuke Nakamura', 'Goalkeeper', 26, 6, 1.87, 0, 0, 'Japan');
 
@@ -93,7 +93,7 @@ VALUES (20, 'Kyogo Furuhashi', 'Forward', 27, 4, 1.73, 0, 0, 'Japan');
 
 
 
--- Player table
+-- South Korea Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (1, 'Kim Seung-gyu', 'Goalkeeper', 32, 38, 1.91, 0, 0, 'South Korea');
 
@@ -134,7 +134,7 @@ VALUES (21, 'Jung Woo-young', 'Midfielder', 32, 60, 1.83, 2, 3, 'South Korea');
 
 
 
--- Player table
+-- England Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (1, 'Jordan Pickford', 'Goalkeeper', 28, 38, 1.85, 0, 0, 'England');
 
@@ -173,7 +173,7 @@ VALUES (11, 'Marcus Rashford', 'Forward', 24, 47, 1.80, 9, 3, 'England');
 
 
 
--- Player table
+-- Senegal Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (10, 'Sadio Mane', 'Forward', 30, 89, 1.75, 20, 35, 'Senegal');
 
@@ -213,7 +213,7 @@ VALUES (2, 'Lamine Gassama', 'Defender', 32, 49, 1.80, 1, 1, 'Senegal');
 
 
 
--- Player table
+-- France Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (7, 'Antoine Griezmann', 'Forward', 31, 105, 1.76, 33, 38, 'France');
 
@@ -251,7 +251,7 @@ VALUES (14, 'Blaise Matuidi', 'Midfielder', 34, 84, 1.75, 10, 9, 'France');
 
 
 
--- Player table
+-- Poland Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
 VALUES (1, 'Wojciech Szczesny', 'Goalkeeper', 28, 49, 1.95, 0, 'Poland');
 
@@ -290,7 +290,7 @@ VALUES (11, 'Kamil Grosicki', 'Midfielder', 33, 65, 1.78, 14, 'Poland');
 
 
 
--- Player table
+-- Switzerland Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
 VALUES (9, 'Haris Seferovic', 'Forward', 30, 80, 1.86, 15, 'Switzerland');
 
@@ -332,7 +332,7 @@ VALUES (4, 'Nico Elvedi', 'Defender', 24, 33, 1.88, 1, 'Switzerland');
 
 
 
--- Player table
+-- Portugal Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (7, 'Cristiano Ronaldo', 'Forward', 37, 180, 1.87, 41, 109, 'Portugal');
 
@@ -372,7 +372,7 @@ VALUES (9, 'Andre Silva', 'Forward', 26, 39, 1.84, 6, 20, 'Portugal');
 
 
 
--- Player table
+-- Spain Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (1, 'David de Gea', 'Goalkeeper', 31, 55, 1.92, 0, 0, 'Spain');
 
@@ -415,7 +415,7 @@ VALUES (11, 'Jordi Alba', 'Defender', 33, 80, 1.70, 20, 1, 'Spain');
 
 
 
--- Player table
+-- Morocco Player
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (12, 'Yassine Bounou', 'Goalkeeper', 27, 4, 1.93, 0, 0, 'Morocco');
 
