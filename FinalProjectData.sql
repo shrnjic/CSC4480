@@ -46,9 +46,12 @@ VALUES (9, 'Aaron Mooy', 'Midfielder', 32, 4, 1.75, 0, 0, 'Australia');
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (13, 'Marcos Aoás Corrêa', 'Midfielder', 28, 4, 1.74, 0, 0, 'Brazil');
 
+INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
+VALUES (11, 'Brandon Panuccio', 'Forward', 19, 4, 1.79, 2, 52, 'USA');
+
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (10, 'Lionel Messi', 'Forward', 35, 149, 1.70, 43, 76, 'Argentina');
+VALUES (10, 'Lionel Messi', 'Forward', 35, 149, 1.70, 43, 6, 'Argentina');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (22, 'Emiliano Martinez', 'Goalkeeper', 29, 10, 1.94, 0, 0, 'Argentina');
@@ -72,10 +75,10 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (7, 'Giovani Lo Celso', 'Midfielder', 26, 26, 1.77, 2, 3, 'Argentina');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (11, 'Angel Di Maria', 'Forward', 34, 113, 1.80, 28, 24, 'Argentina');
+VALUES (11, 'Angel Di Maria', 'Forward', 34, 113, 1.80, 28, 3, 'Argentina');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 41, 'Argentina');
+VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 1, 'Argentina');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (18, 'Joaquin Correa', 'Forward', 28, 19, 1.85, 2, 1, 'Argentina');
@@ -89,7 +92,7 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (19, 'Hiroki Sakai', 'Defender', 31, 59, 1.82, 5, 1, 'Japan');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (22, 'Maya Yoshida', 'Defender', 33, 123, 1.89, 6, 11, 'Japan');
+VALUES (22, 'Maya Yoshida', 'Defender', 33, 123, 1.89, 6, 1, 'Japan');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (5, 'Tomoki Iwata', 'Defender', 27, 12, 1.85, 0, 0, 'Japan');
@@ -101,10 +104,10 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (8, 'Hidemasa Morita', 'Midfielder', 32, 41, 1.76, 2, 1, 'Japan');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (14, 'Yuya Osako', 'Forward', 31, 52, 1.84, 9, 19, 'Japan');
+VALUES (14, 'Yuya Osako', 'Forward', 31, 52, 1.84, 9, 1, 'Japan');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (10, 'Takumi Minamino', 'Forward', 27, 33, 1.74, 5, 13, 'Japan');
+VALUES (10, 'Takumi Minamino', 'Forward', 27, 33, 1.74, 5, 1, 'Japan');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (16, 'Daichi Kamada', 'Forward', 25, 7, 1.75, 0, 2, 'Japan');
@@ -143,10 +146,10 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (17, 'Hwang Hee-chan', 'Forward', 26, 33, 1.84, 6, 5, 'South Korea');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (14, 'Koo Ja-cheol', 'Midfielder', 33, 81, 1.81, 12, 19, 'South Korea');
+VALUES (14, 'Koo Ja-cheol', 'Midfielder', 33, 81, 1.81, 12, 0, 'South Korea');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (13, 'Son Heung-min', 'Forward', 29, 121, 1.83, 33, 34, 'South Korea');
+VALUES (13, 'Son Heung-min', 'Forward', 29, 121, 1.83, 33, 6, 'South Korea');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (18, 'Hwang Ui-jo', 'Forward', 29, 29, 1.84, 1, 7, 'South Korea');
@@ -187,10 +190,10 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (7, 'Jadon Sancho', 'Forward', 21, 25, 1.80, 8, 2, 'England');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (10, 'Raheem Sterling', 'Forward', 28, 82, 1.70, 24, 11, 'England');
+VALUES (10, 'Raheem Sterling', 'Forward', 28, 82, 1.70, 24, 3, 'England');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (9, 'Harry Kane', 'Forward', 29, 69, 1.88, 16, 23, 'England');
+VALUES (9, 'Harry Kane', 'Forward', 29, 69, 1.88, 16, 2, 'England');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (11, 'Marcus Rashford', 'Forward', 24, 47, 1.80, 9, 3, 'England');
@@ -202,7 +205,7 @@ VALUES (11, 'Marcus Rashford', 'Forward', 24, 47, 1.80, 9, 3, 'England');
 
 -- Senegal Player
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (10, 'Sadio Mane', 'Forward', 30, 89, 1.75, 20, 35, 'Senegal');
+VALUES (10, 'Sadio Mane', 'Forward', 30, 89, 1.75, 20, 4, 'Senegal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (1, 'Edouard Mendy', 'Goalkeeper', 29, 23, 1.97, 0, 0, 'Senegal');
@@ -242,13 +245,13 @@ VALUES (2, 'Lamine Gassama', 'Defender', 32, 49, 1.80, 1, 1, 'Senegal');
 
 -- France Player
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (7, 'Antoine Griezmann', 'Forward', 31, 105, 1.76, 33, 38, 'France');
+VALUES (7, 'Antoine Griezmann', 'Forward', 31, 105, 1.76, 33, 3, 'France');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (10, 'Kylian Mbappe', 'Forward', 23, 54, 1.78, 17, 32, 'France');
+VALUES (10, 'Kylian Mbappe', 'Forward', 23, 54, 1.78, 17, 17, 'France');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (9, 'Olivier Giroud', 'Forward', 35, 116, 1.92, 22, 47, 'France');
+VALUES (9, 'Olivier Giroud', 'Forward', 35, 116, 1.92, 22, 4, 'France');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (1, 'Hugo Lloris', 'Goalkeeper', 35, 133, 1.88, 0, 0, 'France');
@@ -266,7 +269,7 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (21, 'Lucas Digne', 'Defender', 28, 38, 1.78, 5, 1, 'France');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (6, 'Paul Pogba', 'Midfielder', 28, 98, 1.91, 24, 13, 'France');
+VALUES (6, 'Paul Pogba', 'Midfielder', 28, 98, 1.91, 24, 3, 'France');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (13, 'N Golo Kante', 'Midfielder', 30, 48, 1.68, 2, 2, 'France');
@@ -361,7 +364,7 @@ VALUES (4, 'Nico Elvedi', 'Defender', 24, 33, 1.88, 1, 0,'Switzerland');
 
 -- Portugal Player
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (7, 'Cristiano Ronaldo', 'Forward', 37, 180, 1.87, 41, 109, 'Portugal');
+VALUES (7, 'Cristiano Ronaldo', 'Forward', 37, 180, 1.87, 41, 2, 'Portugal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (1, 'Anthony Lopes', 'Goalkeeper', 31, 17, 1.84, 0, 0, 'Portugal');
@@ -385,13 +388,13 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (8, 'Bruno Fernandes', 'Midfielder', 27, 32, 1.79, 6, 3, 'Portugal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (11, 'Bernardo Silva', 'Midfielder', 27, 67, 1.73, 21, 10, 'Portugal');
+VALUES (11, 'Bernardo Silva', 'Midfielder', 27, 67, 1.73, 21, 2, 'Portugal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (17, 'Joao Palhinha', 'Midfielder', 26, 12, 1.90, 0, 1, 'Portugal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (9, 'Andre Silva', 'Forward', 26, 39, 1.84, 6, 20, 'Portugal');
+VALUES (9, 'Andre Silva', 'Forward', 26, 39, 1.84, 6, 2, 'Portugal');
 
 
 
