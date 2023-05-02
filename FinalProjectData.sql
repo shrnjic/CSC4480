@@ -487,6 +487,34 @@ INSERT INTO Coach (name, age, country)
 VALUES ('Vahid Halilhodžić', 69, 'Morocco');
 
 
+--TABLE INSERTS
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’3–DEC-2022’, ‘Netherlands’, ‘USA’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’3–DEC-2022’, ‘Argentina’, ‘Australia’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’5–DEC-2022’, ‘Croatia’, ‘Japan’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’5–DEC-2022’, ‘Brazil, ‘Korea, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’9–DEC-2022’, ‘Argentina’, ‘Netherlands’, ‘Quarter Final’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’9–DEC-2022’, ‘Croatia’, ‘’Brazil, ‘Quarter Final’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’10–DEC-2022’, ‘France’, ‘England’, ‘Quarter Final’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’10–DEC-2022’, ‘Morocco’, ‘Portugal’, ‘Quarter Final’)
+
+
+
+
 
 
 
