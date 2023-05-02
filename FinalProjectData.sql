@@ -48,7 +48,7 @@ VALUES ('Japan', 'Asia', 'H', 4, 4);
 
 -- Player table
 INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
-@@ -72,3 +93,396 @@ VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
+VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
 
 
 
