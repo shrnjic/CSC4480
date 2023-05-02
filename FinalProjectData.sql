@@ -463,6 +463,32 @@ INSERT INTO Coach (name, age, country_name)
 VALUES ('Adenor Leonardo Bacchi', 61 , 'Brazil')
 INSERT INTO Coach (name, age, country_name)
 VALUES ('Graham Arnold', 59, 'Australia')
+INSERT INTO Coach (name, age, country)
+VALUES ('Lionel Scaloni', 43, 'Argentina');
+INSERT INTO Coach (name, age, country, role)
+VALUES ('Hajime Moriyasu', 53, 'Japan');
+INSERT INTO Coach (name, age, country) 
+VALUES ('Paulo Bento', 52, 'South Korea');
+INSERT INTO Coach (name, age, country)
+VALUES ('Gareth Southgate', 51, 'England');
+INSERT INTO Coach (name, age, country)
+VALUES ('Aliou Cissé', 46, 'Senegal');
+INSERT INTO Coach (name, age, country) 
+VALUES ('Didier Deschamps', 53, 'France');
+INSERT INTO Coach (name, age, country)
+VALUES ('Paulo Sousa', 51, 'Poland');
+INSERT INTO Coach (name, age, country) 
+VALUES ('Vladimir Petković', 59, 'Switzerland');
+INSERT INTO Coach (name, age, country)
+VALUES ('Fernando Santos', 67, 'Portugal');
+INSERT INTO Coach (name, age, country)
+VALUES ('Luis Enrique', 52, 'Spain');
+INSERT INTO Coach (name, age, country) 
+VALUES ('Vahid Halilhodžić', 69, 'Morocco');
+
+
+
+
 
 
 
