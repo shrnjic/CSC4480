@@ -22,6 +22,7 @@ SELECT *
 FROM country
 WHERE number_of_goals > 10;
 
+
 -- SELECT countries with average goals scored by forwards
 SELECT c.cname, AVG(p.goals) as average_goals
 FROM country c
@@ -31,9 +32,44 @@ GROUP BY p.country_name
 ORDER BY average_goals desc;
 
 
+--SELECT which player scored the most goals
+SELECT p.pname, p.goals
+FROM Player p
+WHERE p.goals = (
+  SELECT MAX(goals)
+  FROM Player
+);
+
+
 -- Insert player into DataBase
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (11, 'Brandon Panuccio', 'Forward', 19, 4, 1.79, 2, 52, 'USA');
+
+
+-- UPDATE new number
+UPDATE Player
+SET pnumber = 99
+WHERE pname = 'Brandon Panuccio';
+
+-- SELECT player number
+select pnumber
+FROM player
+WHERE pname = 'Brandon Panuccio';
+
+
+-- revert player number
+UPDATE Player
+SET pnumber = 11
+WHERE pname = 'Brandon Panuccio';
+
+
+--SELECT which player scored the most goals
+SELECT p.pname, p.goals
+FROM Player p
+WHERE p.goals = (
+  SELECT MAX(goals)
+  FROM Player
+);
 
 
 -- Delete player into DataBase
