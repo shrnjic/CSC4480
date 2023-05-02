@@ -510,6 +510,18 @@ VALUES (’14:00’, ’10–DEC-2022’, ‘France’, ‘England’, ‘Quarte
 INSERT INTO TABLE (time, date, winner, loser, stage)
 VALUES (’10:00’, ’10–DEC-2022’, ‘Morocco’, ‘Portugal’, ‘Quarter Final’)
 
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’17–DEC-2022’, ‘Croatia’, ‘Morocco’, ‘Play-off for third place’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’13–DEC-2022’, ‘Argentina, ‘Croatia’, ‘Semi-Final’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’14–DEC-2022’, ‘France’, ‘Morocco’, ‘Semi-Final’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’18–DEC-2022’, ‘Argentina, ‘France’, ‘Final’)
+
 
 --Accolades Inserts
 
