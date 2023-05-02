@@ -5,28 +5,15 @@ Brandon( Argentina, Japan, South Korea, England, Senegal, France)
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('Argentina', 'South America', 'C', 15, '1' );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Netherlands', 'Europe', 'A', 10, '8-5' );
+VALUES ('Netherlands', 'Europe', 'A', 10, '5-8' );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('USA', 'North America', 'B', 3, '16-9'  );
+VALUES ('USA', 'North America', 'B', 3, '9-16'  );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Australia', 'Australia', 'D', 4, '16-9') ;
+VALUES ('Australia', 'Australia', 'D', 4, '9-16') ;
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('Croatia', 'Europe', 'F', 8, '3');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Brazil', 'South America', 'G', 8, '8-5');
-
-
-INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Argentina', 'South America', 'C', 2, 1);
-VALUES ('Morocco', 'Africa', 'B', 0, 3);
-INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Spain', 'Europe', 'B', 1, 7);
-INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Portugal', 'Europe', 'F', 3, 2);
-INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Switzerland', 'Europe', 'A', 1, 9);
-INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Poland', 'Europe', 'H', 4, 8);
+VALUES ('Brazil', 'South America', 'G', 8, '5-8');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('France', 'Europe', 'F', 7, 2);
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
@@ -37,6 +24,17 @@ INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('South Korea', 'Asia', 'H', 5, 4);
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('Japan', 'Asia', 'H', 4, 4);
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
+VALUES ('Poland', 'Europe', 'E', 3, ‘9-16’);
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
+VALUES ('Switzerland', 'Europe', 'A', 5, ‘9-16’);
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
+VALUES ('Portugal', 'Europe', 'D', 12, ‘5-8’);`
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
+VALUES ('Spain', 'Europe', 'E', 9, ‘9-16’);
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
+VALUES ('Morocco', 'Africa', 'C', 6, ‘4’);
+
 
 
 -- Player table
@@ -487,7 +485,7 @@ INSERT INTO Coach (name, age, country)
 VALUES ('Vahid Halilhodžić', 69, 'Morocco');
 
 
---TABLE INSERTS
+--MATCHES INSERTS
 INSERT INTO TABLE (time, date, winner, loser, stage)
 VALUES (’10:00’, ’3–DEC-2022’, ‘Netherlands’, ‘USA’, ‘Round of 16’)
 
@@ -513,6 +511,19 @@ INSERT INTO TABLE (time, date, winner, loser, stage)
 VALUES (’10:00’, ’10–DEC-2022’, ‘Morocco’, ‘Portugal’, ‘Quarter Final’)
 
 
+--Accolades Inserts
+
+INSERT INTO Accolades (name, description, recipient) 
+VALUES (‘Golden Ball’, ‘This award is presented to the best player at the FIFA World Cup tournament’, ‘Lionel Messi’);
+
+INSERT INTO Accolades (name, description, recipient) 
+VALUES (‘Golden Boot’, ‘This award is presented to the player who scores the most goals at the FIFA World Cup tournament’, ‘Kylian Mbappe’);
+
+INSERT INTO Accolades (name, description, recipient) 
+VALUES (‘Golden Glove’, ‘This award is presented to the most outstanding goalkeeper at the FIFA World Cup tournament’, ‘Emiliano Martinez’);
+
+INSERT INTO Accolades (name, description, recipient) 
+VALUES (‘Young Player Award’, ‘This award is presented to the best player at the FIFA World Cup tournament who is 21 years or younger’, ‘Enzo Fernandez’);
 
 
 
