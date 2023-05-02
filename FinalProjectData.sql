@@ -4,18 +4,18 @@ Brandon( Argentina, Japan, South Korea, England, Senegal, France)
 
 
 -- Country table
-INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
-VALUES ('Argentina', 'South America', 'C', );
-INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
-VALUES ('Netherlands', 'Europe', 'A', );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('USA', 'North America', 'B', );
+VALUES ('Argentina', 'South America', 'C', 15, '1' );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Australia', 'Australia', 'D', ;
+VALUES ('Netherlands', 'Europe', 'A', 10, '8-5' );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Croatia', 'Europe', 'F', 8, 3);
+VALUES ('USA', 'North America', 'B', 3, '16-9'  );
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Brazil', 'South America', 'G', 8, );
+VALUES ('Australia', 'Australia', 'D', 4, '16-9') ;
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
+VALUES ('Croatia', 'Europe', 'F', 8, '3');
+INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
+VALUES ('Brazil', 'South America', 'G', 8, '8-5');
 
 
 INSERT INTO Country (name, continent, group_name, number_of_wins, number_of_losses, number_of_goals, placing)
