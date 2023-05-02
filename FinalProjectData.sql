@@ -46,9 +46,6 @@ VALUES (9, 'Aaron Mooy', 'Midfielder', 32, 4, 1.75, 0, 0, 'Australia');
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (13, 'Marcos Aoás Corrêa', 'Midfielder', 28, 4, 1.74, 0, 0, 'Brazil');
 
-INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (11, 'Brandon Panuccio', 'Forward', 19, 4, 1.79, 2, 52, 'USA');
-
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (10, 'Lionel Messi', 'Forward', 35, 149, 1.70, 43, 6, 'Argentina');
@@ -226,7 +223,7 @@ INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assist
 VALUES (8, 'Badou Ndiaye', 'Midfielder', 31, 38, 1.78, 4, 3, 'Senegal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
-VALUES (11, 'Ismaïla Sarr', 'Forward', 24, 33, 1.81, 6, 9, 'Senegal');
+VALUES (11, 'Ismaïla Sarr', 'Forward', 24, 33, 1.81, 6, 8, 'Senegal');
 
 INSERT INTO Player (pnumber, pname, pposition, age, games_played, height, assists, goals, country_name)
 VALUES (9, 'M Baye Niang', 'Forward', 27, 28, 1.87, 2, 6, 'Senegal');
@@ -506,13 +503,13 @@ VALUES ('Didier Deschamps', 53, 'France');
 INSERT INTO Coach (coname, age, country_name)
 VALUES ('Paulo Sousa', 51, 'Poland');
 INSERT INTO Coach (coname, age, country_name) 
-VALUES ('Vladimir Petković', 59, 'Switzerland');
+VALUES ('Vladimir Petkovi?', 59, 'Switzerland');
 INSERT INTO Coach (coname, age, country_name)
 VALUES ('Fernando Santos', 67, 'Portugal');
 INSERT INTO Coach (coname, age, country_name)
 VALUES ('Luis Enrique', 52, 'Spain');
 INSERT INTO Coach (coname, age, country_name) 
-VALUES ('Vahid Halilhodžić', 69, 'Morocco');
+VALUES ('Vahid Halilhodži?', 69, 'Morocco');
 
 --MATCHES INSERTS
 INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
@@ -577,7 +574,6 @@ VALUES ('Golden Glove', 'This award is presented to the most outstanding goalkee
 
 INSERT INTO Accolades (aname, adescription, recipient) 
 VALUES ('Young Player Award', 'This award is presented to the best player at the FIFA World Cup tourpnament who is 21 years or younger', 'Enzo Fernandez');
-
 
 
 
