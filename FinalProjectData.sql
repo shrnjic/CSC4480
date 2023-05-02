@@ -499,6 +499,18 @@ INSERT INTO TABLE (time, date, winner, loser, stage)
 VALUES (’14:00’, ’5–DEC-2022’, ‘Brazil, ‘Korea, ‘Round of 16’)
 
 INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’4–DEC-2022’, ‘England’, ‘Senegal’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’4–DEC-2022’, ‘France’, ‘Poland’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’10:00’, ’6–DEC-2022’, ‘Morocco’, ‘Spain’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
+VALUES (’14:00’, ’6–DEC-2022’, ‘Portugal’, ‘Switzerland’, ‘Round of 16’)
+
+INSERT INTO TABLE (time, date, winner, loser, stage)
 VALUES (’14:00’, ’9–DEC-2022’, ‘Argentina’, ‘Netherlands’, ‘Quarter Final’)
 
 INSERT INTO TABLE (time, date, winner, loser, stage)
