@@ -15,15 +15,15 @@ VALUES ('Croatia', 'Europe', 'F', 8, '3');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('Brazil', 'South America', 'G', 8, '5-8');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('France', 'Europe', 'F', 7, 2);
+VALUES ('France', 'Europe', 'F', 7, '2');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Senegal', 'Africa', 'H', 3, 11);
+VALUES ('Senegal', 'Africa', 'H', 3, '9-16');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('England', 'Europe', 'D', 9, 2);
+VALUES ('England', 'Europe', 'D', 9, '5-8');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('South Korea', 'Asia', 'H', 5, 4);
+VALUES ('South Korea', 'Asia', 'H', 5, '9-16');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
-VALUES ('Japan', 'Asia', 'H', 4, 4);
+VALUES ('Japan', 'Asia', 'H', 4, '9-16');
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
 VALUES ('Poland', 'Europe', 'E', 3, ‘9-16’);
 INSERT INTO Country (name, continent, group_name, number_of_goals, placing) 
