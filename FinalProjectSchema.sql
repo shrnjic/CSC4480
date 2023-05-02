@@ -15,10 +15,8 @@ CREATE TABLE Country (
   name VARCHAR(50) PRIMARY KEY,
   continent VARCHAR(50) NOT NULL,
   group_letter VARCHAR(1) NOT NULL,
-  wins INT NOT NULL DEFAULT 0,
-  losses INT NOT NULL DEFAULT 0,
-  total_goals INT NOT NULL DEFAULT 0,
-  place INT NOT NULL
+  number_of_goals INT NOT NULL DEFAULT 0,
+  placing INT NOT NULL
 );
 
 CREATE SEQUENCE seqCoID INCREMENT BY 1 START WITH 1;
@@ -52,7 +50,6 @@ CREATE TABLE Matches (
   winner VARCHAR(50) NOT NULL,
   loser VARCHAR(50) NOT NULL,
   stage VARCHAR(50) NOT NULL,
-  manofthematch VARCHAR(50) NOT NULL
   PRIMARY KEY (time, date)
 );
 
@@ -60,6 +57,5 @@ CREATE TABLE Matches (
 CREATE TABLE Accolades (
   name VARCHAR(50) PRIMARY KEY,
   description VARCHAR(100) NOT NULL,
-  date_awarded DATE NOT NULL,
   recipient VARCHAR(50) NOT NULL
 );
