@@ -40,20 +40,21 @@ INSERT INTO Country (name, continent, group_name, number_of_goals, placing)
 VALUES ('Japan', 'Asia', 'H', 4, 4);
 
 
-
-
-
-
-
-
 -- Player table
 INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (10, 'Christian Pulisic', 'Midfielder', 24, 4, 1.79, 2, 'USA');
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (10, 'Luka Modric', 'Midfielder', 37 , 7, 1.72, 0, 'Croatia');
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (4, 'Virgil van Dijk', 'Central Defender', 31, 5, 1.95, 0, 'Netherlands');
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (9, 'Aaron Mooy', 'Midfielder', 32, 4, 1.75, 0, 'Australia');
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (13, 'Marcos Aoás Corrêa', 'Midfielder', 28, 4, 1.74, 0, 'Brazil');
+
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
 VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
-
-
-
-
-
 
 
 -- Player table
