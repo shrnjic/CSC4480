@@ -50,8 +50,38 @@ INSERT INTO Player (number, name, position, age, games_played, height, assists, 
 VALUES (13, 'Marcos Aoás Corrêa', 'Midfielder', 28, 4, 1.74, 0, 'Brazil');
 
 
-INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
-VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (10, 'Lionel Messi', 'Forward', 35, 149, 1.70, 43, 76, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (22, 'Emiliano Martinez', 'Goalkeeper', 29, 10, 1.94, 0, 0, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (2, 'Juan Foyth', 'Defender', 24, 10, 1.85, 0, 0, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (3, 'Nicolas Tagliafico', 'Defender', 29, 36, 1.72, 4, 2, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (4, 'German Pezzella', 'Defender', 30, 17, 1.85, 0, 1, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (8, 'Rodrigo De Paul', 'Midfielder', 28, 31, 1.78, 2, 4, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (5, 'Leandro Paredes', 'Midfielder', 27, 40, 1.80, 6, 3, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (7, 'Giovani Lo Celso', 'Midfielder', 26, 26, 1.77, 2, 3, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (11, 'Angel Di Maria', 'Forward', 34, 113, 1.80, 28, 24, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 41, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
+VALUES (18, 'Joaquin Correa', 'Forward', 28, 19, 1.85, 2, 1, 'Argentina');
 
 
 -- Japan Player
