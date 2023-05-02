@@ -1,59 +1,51 @@
 DROP TABLE Country CASCADE CONSTRAINTS;
-DROP TABLE Player CASCADE CONSTRAINTS;
-DROP TABLE Coach CASCADE CONSTRAINTS;
-DROP TABLE Matches CASCADE CONSTRAINTS;
 DROP TABLE Accolades CASCADE CONSTRAINTS;
-DROP SEQUENCE seqCoID;
-DROP SEQUENCE seqPlID;
-DROP SEQUENCE seqChID;
-DROP SEQUENCE seqMaSID;
-DROP SEQUENCE seqAcID;
+--DROP TABLE Player CASCADE CONSTRAINTS;
 
 CREATE TABLE Country (
-  name VARCHAR(50) PRIMARY KEY,
+  cname VARCHAR(50) PRIMARY KEY,
   continent VARCHAR(50) NOT NULL,
   group_letter VARCHAR(1) NOT NULL,
   number_of_goals INT NOT NULL,
   placing VARCHAR(50) NOT NULL
 );
 
-CREATE SEQUENCE seqCoID INCREMENT BY 1 START WITH 1;
 
 CREATE TABLE Player (
-  number INT PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  position VARCHAR(50) NOT NULL,
+  pnumber INT PRIMARY KEY,
+  pname VARCHAR(50) NOT NULL,
+  pposition VARCHAR(50) NOT NULL,
   age INT NOT NULL,
   games_played INT NOT NULL,
   height FLOAT NOT NULL,
   assists INT NOT NULL,
   goals INT NOT NULL,
-  country_name INT NOT NULL,
-  FOREIGN KEY (country_name) REFERENCES country(name)
+  country_name VARCHAR(50) NOT NULL,
+  FOREIGN KEY (country_name) REFERENCES country(cname)
 );
 
 CREATE SEQUENCE seqPlID INCREMENT BY 1 START WITH 1;
 
 CREATE TABLE Coach (
-  name VARCHAR(50) PRIMARY KEY,
+  coname VARCHAR(50) PRIMARY KEY,
   age INT NOT NULL,
-  country_name INT NOT NULL,
-  FOREIGN KEY (country_name) REFERENCES country(name)
+  country_name VARCHAR(50) NOT NULL,
+  FOREIGN KEY (country_name) REFERENCES country(cname)
 );
 
 
 CREATE TABLE Matches (
-  time TIME NOT NULL,
-  date DATE NOT NULL,
+  mtime TIME NOT NULL,
+  mdate DATE NOT NULL,
   winner VARCHAR(50) NOT NULL,
   loser VARCHAR(50) NOT NULL,
   stage VARCHAR(50) NOT NULL,
-  PRIMARY KEY (time, date)
+  PRIMARY KEY (mtime, mdate)
 );
 
 
 CREATE TABLE Accolades (
-  name VARCHAR(50) PRIMARY KEY,
-  description VARCHAR(100) NOT NULL,
+  aname VARCHAR(50) PRIMARY KEY,
+  adescription VARCHAR(100) NOT NULL,
   recipient VARCHAR(50) NOT NULL
 );
