@@ -54,5 +54,21 @@ VALUES (11, 'Angel Di Maria', 'Forward', 34, 113, 1.80, 28, 'Argentina');
 INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
 VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
 
+//Netherlands, USA, Croatia, Brazil, Australia//
 INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
-VALUES (18, 'Joaquin Correa', 'Forward', 28, 19, 1.85, 2, 'Argentina');
+VALUES (10, 'Christian Pulisic', 'Midfielder', 24, 4, 1.79, 2, 'USA');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (10, 'Luka Modric', 'Midfielder', 37 , 7, 1.72, 0, 'Croatia');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (4, 'Virgil van Dijk', 'Central Defender', 31, 5, 1.95, 0, 'Netherlands');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
+
+INSERT INTO Player (number, name, position, age, games_played, height, assists, country_name)
+VALUES (9, 'Sergio Aguero', 'Forward', 33, 104, 1.73, 42, 'Argentina');
+
+
+
