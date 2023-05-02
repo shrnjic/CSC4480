@@ -16,7 +16,7 @@ VALUES ('France', 'Europe', 'D', 7, '2');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
 VALUES ('Senegal', 'Africa', 'A', 3, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
-VALUES ('England', 'Europe', 'D', 9, '5-8');
+VALUES ('England', 'Europe', 'B', 9, '5-8');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
 VALUES ('South Korea', 'Asia', 'H', 5, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
