@@ -512,52 +512,52 @@ INSERT INTO Coach (coname, age, country_name)
 VALUES ('Vahid Halilhodžić', 69, 'Morocco');
 
 --MATCHES INSERTS
-INSERT INTO MATCHES (mtime, winner, loser, stage)
-VALUES ('11-21-2018 11:14:23', 'Netherlands', 'USA', 'Round of 16');
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
+VALUES ('10:00', '03–DEC-2022' , 'Netherlands', 'USA', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '03–DEC-2022', 'Argentina', 'Australia', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('10:00', '05–DEC-2022', 'Croatia', 'Japan', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
-VALUES ('14:00', '05–DEC-2022', 'Brazil, 'Korea', 'Round of 16');
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
+VALUES ('14:00', '05–DEC-2022', 'Brazil', 'Korea', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '04–DEC-2022', 'England', 'Senegal', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('10:00', '04–DEC-2022', 'France', 'Poland', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('10:00', '06–DEC-2022', 'Morocco', 'Spain', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '06–DEC-2022', 'Portugal', 'Switzerland', 'Round of 16');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '09–DEC-2022', 'Argentina', 'Netherlands', 'Quarter Final');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
-VALUES ('10:00', '09–DEC-2022', 'Croatia', ''Brazil, 'Quarter Final');
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
+VALUES ('10:00', '09–DEC-2022', 'Croatia', 'Brazil', 'Quarter Final');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '10–DEC-2022', 'France', 'England', 'Quarter Final');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('10:00', '10–DEC-2022', 'Morocco', 'Portugal', 'Quarter Final');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('10:00', '17–DEC-2022', 'Croatia', 'Morocco', 'Play-off for third place');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '13–DEC-2022', 'Argentina', 'Croatia', 'Semi-Final');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('14:00', '14–DEC-2022', 'France', 'Morocco', 'Semi-Final');
 
-INSERT INTO MATCHES (mtime, winner, loser, stage)
+INSERT INTO MATCHES (mtime, mdate, winner, loser, stage)
 VALUES ('10:00', '18–DEC-2022', 'Argentina', 'France', 'Final');
 
 
