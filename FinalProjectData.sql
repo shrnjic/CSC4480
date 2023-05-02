@@ -412,6 +412,11 @@ VALUES (11, 'Jordi Alba', 'Defender', 33, 80, 1.70, 20, 1, 'Spain');
 
 
 
+
+
+
+
+
 -- Player table
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (12, 'Yassine Bounou', 'Goalkeeper', 27, 4, 1.93, 0, 0, 'Morocco');
@@ -445,3 +450,23 @@ VALUES (13, 'Khalid Boutaib', 'Forward', 31, 3, 1.90, 0, 1, 'Morocco');
 
 INSERT INTO Player (number, name, position, age, games_played, height, assists, goals, country_name)
 VALUES (17, 'Nordin Amrabat', 'Forward', 31, 3, 1.82, 1, 0, 'Morocco');
+
+--Coach Table
+
+INSERT INTO Coach (name, age, country_name)
+VALUES ('Gregg Berhalter', 49, 'USA')
+INSERT INTO Coach (name, age, country_name)
+VALUES ('Louis Van Gaal', 71, 'Netherlands')
+INSERT INTO Coach (name, age, country_name)
+VALUES ('Zlatko Dalic', 56, 'Croatia')
+INSERT INTO Coach (name, age, country_name)
+VALUES ('Adenor Leonardo Bacchi', 61 , 'Brazil')
+INSERT INTO Coach (name, age, country_name)
+VALUES ('Graham Arnold', 59, 'Australia')
+
+
+
+
+
+
+
