@@ -16,6 +16,16 @@ SELECT *
 FROM player
 WHERE country_name = 'Argentina'; 
 
+--All the countries and how they placed
+select cname as Country, placing
+from Country
+order by placing;
+
+--Which teams performed the best from each group
+select cname, placing, group_letter
+from Country
+order by group_letter, placing;
+
 
 -- SELECT all teams that scored more than 10 goals
 SELECT *
