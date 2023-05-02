@@ -12,25 +12,25 @@ VALUES ('Croatia', 'Europe', 'F', 8, '3');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
 VALUES ('Brazil', 'South America', 'G', 8, '5-8');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
-VALUES ('France', 'Europe', 'F', 7, '2');
+VALUES ('France', 'Europe', 'D', 7, '2');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
-VALUES ('Senegal', 'Africa', 'H', 3, '9-16');
+VALUES ('Senegal', 'Africa', 'A', 3, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
 VALUES ('England', 'Europe', 'D', 9, '5-8');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
 VALUES ('South Korea', 'Asia', 'H', 5, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing)
-VALUES ('Japan', 'Asia', 'H', 4, '9-16');
+VALUES ('Japan', 'Asia', 'E', 4, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing) 
-VALUES ('Poland', 'Europe', 'E', 3, '9-16');
+VALUES ('Poland', 'Europe', 'C', 3, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing) 
-VALUES ('Switzerland', 'Europe', 'A', 5, '9-16');
+VALUES ('Switzerland', 'Europe', 'G', 5, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing) 
-VALUES ('Portugal', 'Europe', 'D', 12, '5-8');
+VALUES ('Portugal', 'Europe', 'H', 12, '5-8');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing) 
 VALUES ('Spain', 'Europe', 'E', 9, '9-16');
 INSERT INTO Country (cname, continent, group_letter, number_of_goals, placing) 
-VALUES ('Morocco', 'Africa', 'C', 6, '4');
+VALUES ('Morocco', 'Africa', 'F', 6, '4');
 
 
 
